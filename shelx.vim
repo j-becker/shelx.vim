@@ -22,21 +22,21 @@ syn keyword shelxKeyword        ABIN ACTA ANIS ANSC ANSR BASF BIND BLOC BOND
                               \ TEMP TITL TWIN TWST UNIT WGHT WIGL WPDB XNPD   
                               \ ZERR
 
-syn match shelxKeyword        'L.S.'
+syn match shelxKeyword          'L.S.'
 
-syn match shelxComment        'REM.*'
+syn match shelxComment          'REM.*'
 
-syn match shelxIgLine '^ .*.[a-zA-Z].*'
+syn match shelxIgLine           '^ .*.[a-zA-Z].*'
 
-syn match shelxAFLine '^AFIX .*.\d\+'
+syn match shelxAFLine           ' ^AFIX .*.\d\+'
 
-syn match shelxPTLine '^PART \d\+'
+syn match shelxPTLine           '^PART \d\+'
 
-hi def link shelxIgLine        Todo
-hi def link shelxComment       Comment
-hi def link shelxKeyword       Keyword
-hi def link shelxAFLine     Delimiter
-hi def link shelxPTLine     Identifier
+hi def link shelxIgLine         Todo
+hi def link shelxComment        Comment
+hi def link shelxKeyword        Keyword
+hi def link shelxAFLine         Delimiter
+hi def link shelxPTLine         Identifier
 
 let b:current_syntax = "shelx"
 
