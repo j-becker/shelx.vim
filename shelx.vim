@@ -37,7 +37,6 @@ hi def link shelxComment       Comment
 hi def link shelxKeyword       Keyword
 hi def link shelxAFLine     Delimiter
 hi def link shelxPTLine     Identifier
-hi def link shelxAtom       Todo        
 
 let b:current_syntax = "shelx"
 
