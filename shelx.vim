@@ -28,7 +28,7 @@ syn match shelxComment          'REM.*'
 
 syn match shelxIgLine           '^ .*.[a-zA-Z].*'
 
-syn match shelxAFLine           ' ^AFIX .*.\d\+'
+syn match shelxAFLine           '^AFIX .*.\d\+'
 
 syn match shelxPTLine           '^PART \d\+'
 
