@@ -26,7 +26,7 @@ syn match shelxKeyword          'L.S.'
 
 syn match shelxComment          'REM.*'
 
-syn match shelxIgLine           '^ .*.[a-zA-Z].*'
+syn match shelxIgLine           '\v(\=\n)@<!\_^ .*.\w.*'
 
 syn match shelxAFLine           '^AFIX .*.\d\+'
 
